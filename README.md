@@ -1,5 +1,5 @@
 # Encriptador-Challenge-ORACLE-ONE
-### Encriptador de Texto. 
+### Encriptador/Desencriptador de Texto. 
 Es una aplicación que encripta textos, así podrás intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
 
 ### Requisitos:
