@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Titulo pestaña -->
+  <title>Encriptador</title>
+  <!-- Ruta del archivo de css que otorga el estilo a mi html -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Titulo sitio web -->
+  <h1 class="titulo">Encriptador de Texto-Challenge ORACLE ONE</h1>
+
+  <main class="main">
+    <!-- Campo para el texto que va a ser encriptado -->
+    <section class="form box">
+      <form id ="formulario" action="">
+
+        <!-- Etiqueta para el área de texto  -->
+        <label for="input-texto">Solo letras minúsculas, sin acento</label>
+
+        <!-- Área para mostrar el texto encriptado/desencriptado. -->
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
+
+        <!-- botón para encriptar -->
+        <input class="btn" type="submit" value="encriptar!" id="btn-encriptar">
+
+        <!-- botón para desencriptar -->
+        <input class="btn" type="submit" value="desencriptar!" id="btn-desencriptar">
+      </form>
+    </section>
+  
+    <!-- Campo para el texto encriptado -->
+    <section class="msg box">
+      <!-- Texto dentro del area encriptado -->
+      <h2 id="">Mensaje Encriptado:</h2>
+
+       <!-- Área para mostrar el texto encriptado/desencriptado. -->
+      <input class="text-input" type="text" id="msg"></input>
+
+      <!-- Boton para copiar -->
+      <input class="btn" type="submit" value="copiar" id="btn-copy">
+    </section>
+  </main>
+  <!-- Pie de página -->
+  <footer>   
+    <p>desarrollado por José Fernando Allende</p>
+    <a href="mailto:ferallende1@hotmail.com">ferallende1@hotmail.com</a>
+</footer>
+<!-- Ruta del archivo jS que utiliza el archivo html -->
+  <script src="script.js"></script>
+</body>
+</html>
